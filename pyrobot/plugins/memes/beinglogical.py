@@ -110,7 +110,7 @@ BEINGLOGICAL_STRINGS = (
 )
 async def runs(_, message):
     """ /being strings """
-    effective_string = random.choice(RUN_STRINGS)
+    effective_string = random.choice(BEINGLOGICAL_STRINGS)
     if message.reply_to_message:
         await message.reply_to_message.reply_text(effective_string)
     else:
