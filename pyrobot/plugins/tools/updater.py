@@ -16,10 +16,9 @@ from pyrobot.helper_functions.cust_p_filters import sudo_filter
 
 # -- Constants -- #
 IS_SELECTED_DIFFERENT_BRANCH = (
-    "looks like a custom branch {branch_name} "
+    "Eh,looks like a custom branch {branch_name} "
     "is being used \n"
     "in this case, Updater is unable to identify the branch to be updated."
-    "please check out to an official branch, and re-start the updater."
 )
 BOT_IS_UP_TO_DATE = "the user / bot is up-to-date."
 NEW_BOT_UP_DATE_FOUND = (
