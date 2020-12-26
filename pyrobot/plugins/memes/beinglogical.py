@@ -102,7 +102,7 @@ BEINGLOGICAL_STRINGS = (
     "Someday you will either not wake up or not go to sleep.",
     "Bermuda Triangle might be the exit portal of this simulation.",
     "If we put solar panels above parking lots, then our cars wouldn't get hot and we would have a lot of clean energy.",
-
+)
 
 @Client.on_message(
     filters.command("being", COMMAND_HAND_LER) &
