@@ -62,7 +62,7 @@ async def temp_mute_user(_, message):
         await message.reply_text(
             (
                 "Invalid time type specified."
-                 "Expected m, h, or d, obtained": {}"
+                 "Expected m, h, or d, obtained: {}"
             ).format(
                 message.command[1][-1]
             )
