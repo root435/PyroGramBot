@@ -18,7 +18,7 @@ from pyrobot.helper_functions.cust_p_filters import f_onw_fliter
 async def who_is(client, message):
     """ extract user information """
     status_message = await message.reply_text(
-        "🤔😳😳🙄"
+        "wiat lemme find that in my fbi database..."
     )
     from_user = None
     from_user_id, _ = extract_user(message)
