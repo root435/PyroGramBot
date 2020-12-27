@@ -10,7 +10,7 @@ from pyrobot.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
 ALIVE = "Retards Never Die .."
-HELP = "!start,!help,!being,!gaali,!warn,!ban,!mute,!tmute"
+HELP = "CAACAgUAAxkBAAEDecBf6Bnp-iLOK6GSHYxKuqQVx2\_dAwACYAEAAu\_nOjKBIF0\_gr69NR4E"
 REPO = ("this bot is not open source lul")
 # -- Constants End -- #
 
