@@ -10,9 +10,13 @@ from pyrobot.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
 ALIVE = "Retards Never Die .."
-HELP = "CAADAgAD6AkAAowucAABsFGHedLEzeUWBA"
-REPO = ("User / Bot is available on GitHub:\n"
-        "https://github.com/root435/test")
+HELP = "!start- retard checking
+!help - pm's u dis msg
+!gaali- if u want to learn bad words
+!warn,!ban,!mute,!tmute - Restrictions
+!gyaan - quotes
+!being - logic strings"
+REPO = ("this bot is not open source lul")
 # -- Constants End -- #
 
 
