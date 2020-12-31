@@ -41,15 +41,15 @@ async def warn_user(client: PyroBot, msg: Message):
     mention += "</a>"
 
     if replied.from_user.is_self:
-        await msg.reply_text("I'm not going to warn myself")
+        await msg.reply_text("FCUK!I'm not going to warn myself")
         return
 
     if await admin_check(replied):
-        await msg.reply("User is Admin, Cannot Warn.")
+        await msg.reply("User is Admin, Cannot Warn:/")
         return
 
     if len(msg.command) < 2:
-        await msg.reply("Give a reason to warn him.")
+        await msg.reply("BRUH! Give a reason to warn him/her.")
         return
 
     _, reason = msg.text.split(maxsplit=1)
@@ -65,7 +65,7 @@ async def warn_user(client: PyroBot, msg: Message):
 
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton(
-            "Remove Warn !",
+            "Remove Warn 🛑",
             callback_data=f"rmwarn_{user_id}_{msg.from_user.id}"
         )]
     ])
