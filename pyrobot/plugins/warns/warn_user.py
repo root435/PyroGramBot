@@ -56,7 +56,7 @@ async def warn_user(client: PyroBot, msg: Message):
 
     if chat_id not in client.warnsettingsstore:
         client.warnsettingsstore[chat_id] = {
-            "WARN_LIMIT": 5,
+            "WARN_LIMIT": 3,
             "WARN_MODE": "kick"
         }
     w_s = client.warnsettingsstore[chat_id]
